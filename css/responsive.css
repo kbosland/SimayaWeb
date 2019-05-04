@@ -8,7 +8,7 @@
 }
 
 .grid-item {
-  height: 700px;
+  height: 750px;
   flex-basis: 50%;
   -ms-flex: auto;
   position: relative;
