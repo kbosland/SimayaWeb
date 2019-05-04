@@ -230,7 +230,7 @@
 }
 
 @media(max-width: 555px) {
-  .team-grid-item {
-    flex-basis: 100%;
+  .item-title {
+    padding-bottom:10px;
   }
 }
