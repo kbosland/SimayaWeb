@@ -216,7 +216,17 @@
   }
 
   .item-title {
+    padding-top:20px;
+  }
+}
+
+@media(max-width: 375px) {
+  .item-title {
     padding-top:10px;
+  }
+
+  .item-excerpt {
+    font-size: 14px;
   }
 }
 
