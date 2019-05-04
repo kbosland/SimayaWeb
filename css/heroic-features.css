@@ -146,3 +146,11 @@ a.anchor {
     flex-basis: 100%;
   }
 }
+
+@media (max-width: 400px) {
+  .subject-field {
+    width: 300px;
+    vertical-align: middle;
+    padding-top: 5px;
+  }
+}
