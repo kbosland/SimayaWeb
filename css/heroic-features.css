@@ -1,0 +1,148 @@
+body {
+  padding-top: 56px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.row {
+  display: flex;
+  padding: auto;
+}
+
+.text-column {
+  flex:66.6%;
+  padding: 5px;
+}
+
+.img-column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.link-column {
+  padding: 5px;
+}
+
+.img-hundo {
+  width: 100%;
+}
+
+.img-small {
+  width: 75%;
+}
+
+.img-smallest {
+  width: 50%;
+}
+
+.img-center {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+
+.wrapper {
+  display: inline;
+}
+
+.slide {
+  opacity: 1;
+  position: relative;
+  width: 50%;
+}
+
+.subject-field {
+  width: 400px;
+  vertical-align: middle;
+  padding-top: 5px;
+}
+
+.content-field {
+  padding-top: 5px;
+  vertical-align: middle;
+  width: 20%;
+  width: 600px;
+  height: 200px;
+}
+
+.email-form {
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.form-item-wrapper {
+  padding: 15px;
+}
+
+.submit-button {
+  margin: 0 auto;
+  width: 200px;
+  background-color: #009adb;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.submit-button:hover {
+  margin: 0 auto;
+  width: 20%;
+  background-color: royalblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.field-label {
+  position: relative;
+  font-weight: 600;
+}
+
+@media (max-width: 815px) {
+  .slide {
+    width: 100%;
+  }
+
+  .subject-field {
+    width: 300px;
+  }
+
+  .content-field {
+    width: 300px;
+  }
+}
+
+@media(max-width: 1333px) {
+  .img-column {
+    flex-basis: 33%;
+  }
+}
+
+@media(max-width: 1073px) {
+   .img-column {
+    flex-basis: 33%;
+  }
+}
+
+@media(max-width: 815px) {
+  .img-column {
+    flex-basis: 50%;
+  }
+}
+
+@media(max-width: 555px) {
+  .img-column {
+    flex-basis: 100%;
+  }
+}
