@@ -212,7 +212,7 @@
 @media(max-width: 555px) {
   .grid-item {
     flex-basis: 100%;
-    height: 720px;
+    height: 750px;
   }
 
   .item-title {
