@@ -202,12 +202,20 @@
   .grid-item {
     flex-basis: 100%;
   }
+
+  .item-title {
+    padding-top:30px;
+  }
 }
 
 @media(max-width: 555px) {
   .grid-item {
     flex-basis: 100%;
-    height: 800px;
+    height: 600px;
+  }
+
+  .item-title {
+    padding-top:30px;
   }
 }
 
@@ -226,11 +234,5 @@
 @media(max-width: 815px) {
   .team-grid-item {
     flex-basis: 100%;
-  }
-}
-
-@media(max-width: 555px) {
-  .item-title {
-    padding-top:20px;
   }
 }
