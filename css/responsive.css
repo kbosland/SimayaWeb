@@ -185,6 +185,10 @@
   width: 75%;
 }
 
+.pdflogo {
+  width: 10%;
+}
+
 @media(max-width: 1333px) {
   .grid-item {
     flex-basis: 50%;
@@ -216,6 +220,10 @@
   .item-title {
     padding-top:20px;
   }
+
+  .pdflogo {
+    width: 20%;
+  }
 }
 
 @media(max-width: 375px) {
@@ -225,6 +233,10 @@
 
   .item-excerpt {
     font-size: 15px;
+  }
+
+  .pdflogo {
+    width: 25%;
   }
 }
 
