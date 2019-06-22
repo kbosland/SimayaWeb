@@ -5,16 +5,25 @@
 
   <script>
     function fadeaz (){
-      var interval = 1000;
+      var interval = 1000; 
+      
           $('#slideshow').delay(1200).fadeOut(interval, function(){
-            $('#slideshow').attr("src", "images/event/DSC_0056.JPG").fadeIn(interval, function(){
+            $('#slideshow').attr("src", 'images/event/DSC_0017.JPG').fadeIn(interval, function(){
               $('#slideshow').delay(2000).fadeOut(interval, function(){
-                $('#slideshow').attr("src", "images/pic3.jpg").fadeIn(interval, function(){
+                $('#slideshow').attr("src", "images/event/DSC_0064.JPG").fadeIn(interval, function(){
                   $('#slideshow').delay(2000).fadeOut(interval, function(){
-                    $('#slideshow').attr("src", "images/studying4.jpg").fadeIn(interval, function(){
+                    $('#slideshow').attr("src", "images/event/DSC_0023.JPG").fadeIn(interval, function(){
                       $('#slideshow').delay(2000).fadeOut(interval, function() {
-                        $('#slideshow').attr("src", "images/event/DSC_0017.JPG").fadeIn(interval, function() {
-                          fadeaz();
+                        $('#slideshow').attr("src", "images/event/DSC_0072.JPG").fadeIn(interval, function(){
+                          $('#slideshow').delay(2000).fadeOut(interval, function() {
+                            $('#slideshow').attr("src", "images/event/DSC_0056.JPG").fadeIn(interval, function() {
+                              $('#slideshow').delay(2000).fadeOut(interval, function() {
+                                $('#slideshow').attr("src", "images/event/DSC_0084.JPG").fadeIn(interval, function() {
+                                  fadeaz();
+                            })
+                          })
+                            })
+                        })
                         })
                       })
                     })
@@ -74,12 +83,11 @@
   <div class="container">
     <div class="jumbotron my-4" style="padding: 20px;">
       <div style="position: relative; text-align:center;" >
-        <a id="slide-link" href="about.html">
-          <img id="slideshow" class="slide" src="images/studying6.jpg">
-        </a>
+          <img id="slideshow" class="slide" src="images/event/DSC_0084.JPG">
       </div>
     </div>
 
+    <a href="about.html" style="color:black">
     <div class="jumbotron my-4" style="padding: 20px; text-align: center">
       <h1 style="text-align:center; font-weight: 600" class="h3">The Annual Simaya Foundation Event</h1>
       <div class="row" style="width: 75%; margin: 0 auto; padding: 10px;">
@@ -92,22 +100,13 @@
         <div class="img-column">
           <img class="img-hundo" src="images/flyer2.png">
         </div>
-        
       </div>
-      <p class="lead text-center">
-        Come join us for an evening full of celebration as we raise the voices of the Simaya Youth advisory team!
-        Simaya Foundation Scholarships will be awarded and the presentations will be followed by an interactive dance
-        performance to encourage you onto the dance floor to move to some Bhangra, Bollywood, & Soca!
-      </p>
-      <br/>
-      <p class="lead text-center">
-          Light refreshments and appetizers will be provided! <br/>
-          Tickets can be bought through our <a target="_blank" href="https://www.eventbrite.ca/e/be-inspired-by-youth-the-2nd-annual-scholarship-fundraiser-tickets-60036761570">EventBrite page. </a>
-      </p>
-      <a target="_blank" href="https://www.eventbrite.ca/e/be-inspired-by-youth-the-2nd-annual-scholarship-fundraiser-tickets-60036761570">
-        <img src="images/ticket.png" width="15%">
-      </a>
+      <p class="lead">
+          Click here to see more about how it went!
+        </p>
     </div>
+  </a>
+
 
     <h1 style="text-align:center; font-weight: 600" class="h3">Programs</h1>
       <div style=" padding-bottom: 20px;">
