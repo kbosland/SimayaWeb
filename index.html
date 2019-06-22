@@ -7,12 +7,16 @@
     function fadeaz (){
       var interval = 1000;
           $('#slideshow').delay(1200).fadeOut(interval, function(){
-            $('#slideshow').attr("src", "images/studying4.jpg").fadeIn(interval, function(){
+            $('#slideshow').attr("src", "images/event/DSC_0056.JPG").fadeIn(interval, function(){
               $('#slideshow').delay(2000).fadeOut(interval, function(){
                 $('#slideshow').attr("src", "images/pic3.jpg").fadeIn(interval, function(){
                   $('#slideshow').delay(2000).fadeOut(interval, function(){
-                    $('#slideshow').attr("src", "images/studying6.jpg").fadeIn(interval, function(){
-                      fadeaz();
+                    $('#slideshow').attr("src", "images/studying4.jpg").fadeIn(interval, function(){
+                      $('#slideshow').delay(2000).fadeOut(interval, function() {
+                        $('#slideshow').attr("src", "images/event/DSC_0017.JPG").fadeIn(interval, function() {
+                          fadeaz();
+                        })
+                      })
                     })
                   })
                 })
