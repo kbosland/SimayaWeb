@@ -24,8 +24,17 @@ body {
   padding: 5px;
 }
 
+.booth-column {
+  flex: 50%;
+  padding: 5px;
+}
+
 .link-column {
   padding: 5px;
+}
+
+.img-sixty {
+  width: 65%;
 }
 
 .img-hundo {
@@ -119,6 +128,10 @@ a.anchor {
 
   .content-field {
     width: 100%
+  }
+
+  .img-sixty {
+    width: 100%;
   }
 }
 
