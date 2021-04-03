@@ -113,6 +113,14 @@
   background-image: url('../images/studying4(2).jpg');
 }
 
+.founder-image1 {
+  background-image: url('../images/Founders/founder1.png');
+}
+
+.founder-image2 {
+  background-image: url('../images/Founders/founder2.jpeg');
+}
+
 .grid-image-top.tagalong {
     background: linear-gradient(#952f4c,#3e1a51);
 }
@@ -139,7 +147,6 @@
   font-size: 24px;
   line-height: 26px;
   font-weight: 700;
-  margin-bottom: 18px;
   display: block;
 }
 
@@ -149,6 +156,7 @@
 }
 
 .item-excerpt {
+  margin-top: 18px;
   display: block;
   font-size: 18px;
 }
